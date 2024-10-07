@@ -36,7 +36,7 @@ function AppContent() {
 
 function App() {
   return (
-    <Router>
+    <Router basename="/geogems_sl">
       <TitleProvider>
         <AppContent />
       </TitleProvider>
